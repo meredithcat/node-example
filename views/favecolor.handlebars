@@ -1,0 +1,10 @@
+<form action='/favecolor' method='get'>
+  What is your favorite color? <input type='text' name='color'>
+  <input type='submit' value='Submit!'>
+</form>
+
+{{#if color}}
+<p>
+  Your favorite color is {{color}}!
+</p>
+{{/if}}
